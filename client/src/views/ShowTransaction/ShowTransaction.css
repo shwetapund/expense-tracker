@@ -1,0 +1,27 @@
+.transaction-data{
+    box-shadow: 0px 0px 5px 1px grey;
+  height: 100px;
+    width: 700px;
+    display: block;
+    margin: 50px auto; 
+    position: relative;
+}
+.text-center{
+    text-align: center;
+}
+.trans-amount{
+    color: Red;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.category-text{
+    position: absolute;
+    right:10px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.description-text{
+    position:absolute;
+    right:10px;
+    font-size: 20px;
+}
