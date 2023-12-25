@@ -1,5 +1,6 @@
 import react, {useState, useEffect} from 'react';
 import axios from 'axios';
+import Navbar from '../../components/Navbar/Navbar';
 
 function AddTransaction(){
 const [amount, setAmount] = useState('')
@@ -21,6 +22,7 @@ const AddTrans = async ()=>{
     return(
         <>
         <div>
+            <Navbar/>
             <form>
                 <h1>AddTransaction</h1>
                 <div>

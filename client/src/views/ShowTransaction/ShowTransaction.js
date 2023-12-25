@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import axios from "axios";
 import "./ShowTransaction.css";
+import Navbar from "../../components/Navbar/Navbar";
 
 function ShowTransaction(){
 const [transaction, setTransaction] = useState([]);
@@ -35,6 +36,7 @@ const [debitSum, setDebitSum] = useState(0);
 
     return(
         <>
+        <Navbar/>
         <div>
             <h1 className="text-center">Show Transaction</h1>
             <p>Credit: {creditSum}</p>
