@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from "./views/Home/Home";
 import ShowTransaction from "./views/ShowTransaction/ShowTransaction";
 import AddTransaction from "./views/AddTransaction/AddTransaction";
-import {createBrowserRouter, Router, RouterProvider} from "react-router-dom";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
